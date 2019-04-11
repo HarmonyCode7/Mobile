@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 750px)
+{
+
+    body
+    {
+        font-family:"Roboto", sans-serif;
+        font-size: 20px;
+    }
+    .container p
+    {
+        margin: .5rem 0;
+        
+    }
+    .container>p
+    {
+        padding: .5rem 2rem;
+        width: 100%;
+        font-family: "Cinzel Decorative";
+        font-size: 2rem;
+        direction: ltr;
+    }
+    .container>p>i
+    {
+        float: right;
+        font-size: 37px;
+    }
+    hgroup
+    {
+        padding: 2rem;
+    }
+     .svg
+     {
+        border: 1px solid red;
+        margin: 2rem;
+     }
+    .dynamic-svg
+    {
+        height: 200px;
+        width: 200px;
+        border: .2rem solid aqua;
+        margin: 2rem;
+    }
+
+
+}
